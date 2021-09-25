@@ -1,0 +1,12 @@
+@import "../Helpers/mixin.module.scss";
+
+.gridContainer {
+  @include maxWidth();
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 36rem));
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 2rem;
+}

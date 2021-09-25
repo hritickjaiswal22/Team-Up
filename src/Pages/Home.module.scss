@@ -1,0 +1,42 @@
+@import "../Helpers/colors.module.scss";
+@import "../Helpers/mixin.module.scss";
+
+.homePage {
+  background: linear-gradient($Purple, $Purple),
+    url(../Assets/backgroundImage.png);
+  @include background();
+}
+
+.mainHome {
+  max-width: 120rem;
+  min-height: 64.6rem;
+  margin: 2rem auto;
+  margin-bottom: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.illustrationBox {
+  min-width: 45rem;
+
+  &__illustration {
+    width: 100%;
+  }
+}
+
+.titleBox {
+  max-width: 40rem;
+
+  &__mainHeading {
+    font-size: 4rem;
+  }
+
+  &__subHeading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@import "../Helpers/mediaQueries.module.scss";

@@ -1,0 +1,11 @@
+@mixin maxWidth {
+  max-width: 115rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+@mixin background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

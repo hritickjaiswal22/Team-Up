@@ -1,0 +1,24 @@
+@import "../Helpers/colors.module.scss";
+@import "./Home.module.scss";
+@import "../Helpers/mixin.module.scss";
+@import "../Components/Button.module.scss";
+
+.signinPage {
+  background: linear-gradient($Sign-Background, $Sign-Background),
+    url(../Assets/backgroundImage.png);
+  @include background();
+}
+
+.mainSignIn {
+  @extend .mainHome;
+}
+
+.signinBox {
+  width: 50%;
+}
+
+.btn {
+  @extend .btn;
+}
+
+@import "../Helpers/mediaQueries.module.scss";

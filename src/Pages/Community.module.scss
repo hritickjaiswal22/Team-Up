@@ -1,0 +1,24 @@
+@import "./Home.module.scss";
+@import "../Helpers/colors.module.scss";
+@import "../Helpers/mixin.module.scss";
+
+.communityPage {
+  background: linear-gradient($Community-Background, $Community-Background),
+    url(../Assets/backgroundImage.png);
+  @include background();
+}
+
+.card {
+  font-family: "Glory", sans-serif;
+
+  &__avatarBox {
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
+  &__avatar {
+    width: 100%;
+  }
+}

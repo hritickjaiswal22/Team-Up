@@ -1,0 +1,23 @@
+@import "./Button.module.scss";
+@import "../Helpers/mixin.module.scss";
+
+.filterSection {
+  @include maxWidth();
+
+  &__mainHeading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__subHeading {
+    font-size: 1rem;
+  }
+
+  .btn {
+    @extend .btn;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: 0.3rem 2rem;
+  }
+}

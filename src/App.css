@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Glory", sans-serif;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.activeLink {
+  border-bottom: 3px solid #929cc1;
+  padding-bottom: 1rem;
+}
+
+.btn--purple {
+  background-color: #9898ca;
+  color: #fff;
+}
+
+.btn--filter {
+  background-color: #f2f6f0;
+  color: black;
+}
+
+.btn--community {
+  background-color: #ff655f;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.btn--topics {
+  background: none;
+  padding: 0.5rem;
+  outline: none;
+  color: #ff655f;
+  border: 1px solid #ff655f;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+btn--sign {
+  background-color: #ff655f;
+  color: #fff;
+  font-weight: 700;
+}

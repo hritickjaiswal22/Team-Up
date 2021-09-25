@@ -1,0 +1,13 @@
+@import "../Helpers/colors.module.scss";
+@import "../Helpers/mixin.module.scss";
+
+.projectsPage {
+  background: linear-gradient(
+      to bottom,
+      $Projects-Background-Blue-Upper,
+      $Projects-Background-Blue-Lower
+    ),
+    url(../Assets/backgroundImage.png);
+  @include background();
+  min-height: 75.3rem;
+}
